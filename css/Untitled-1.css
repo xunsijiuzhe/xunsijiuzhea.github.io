@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	} 
+/***************导航栏**********/	
+.topBJ{
+	width:100%;
+	height:33px;
+	background:rgb(0,0,0 ,0.5);
+	position:fixed;
+	z-index:1;
+	transition: 2s;}
+.topBJ .top{
+	width:868px;
+	height:120px;
+	margin:0 auto;
+	transition: 1s;
+	}
+.topBJ .top li{
+	width:110px;
+	height:20px;
+	float:right;
+	line-height:30px;
+	color: #FFF;
+	cursor: pointer;
+	list-style:none;
+	display:block;
+	transform: 1s;}
+
+.topBJ .top li a{
+	text-decoration:none;
+	color: #FFF;
+    text-decoration: none;
+
+}
+	
+.asd{
+	position:absolute;
+	top:250px;
+	left:90px;
+	color:#0F9;
+	transition: 2s;}
+
+.topBJ .top li a:hover{
+	border-bottom:2px solid  #0fc;
+	top: 4px;}			
+
+.topBJ .top li a:hover{
+	color: beige;
+}
+	
+.topBJ .top li:first-child{
+	float:left;}
+	
+/****导航结束*************/	
+
+
+
+/**********背景图*************/
+.sss{
+    width:100%;
+    height:100%;
+    background: url(img/65144542_p0.jpg) no-repeat center;
+    background-size:cover;
+	float:left;
+	} 
+/******背景结束*******/	
+
+
+
+/******内容背景*******/	
+ .saj{
+	width:1000px;
+	height:1360px;
+	background:rgb(153,153,153,0.7);
+	margin:0 auto;
+	margin-top:100px;}
+/*****内容背景结束*****/	
+	
+/*****左边内容***********/
+/*****内容1开始*******/	
+.bj{
+	width:600px;
+	height:400px;
+	background:#FFF;
+	margin:20px;
+	float: left;
+	position:relative;
+	transition: 1s;}
+	
+.bj .bjzp{
+	width:300px;
+	height:300px;
+	background:url(img/65093391_p0.jpg) no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:50px;
+	left:25px;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	box-shadow: 2px 2px 3px black;
+}
+.bj .bjzp:hover{
+	padding:5px 5px 5px ;
+}
+		
+.bj .q{
+	height:20px;
+	margin-left:5px;
+	margin-top:10px;
+	line-height:10px;	
+	border-bottom:2px #00CCFF solid;}
+		
+.bj .q span{
+	color: #F00;
+	font-size:17px;}
+
+.qwe p{
+	margin-left:350px;
+	margin-top:40px;
+	margin-right:40px;}
+
+.t{width:50px;
+	height:20px;
+	background:#FCF;
+	margin-left:350px;
+	margin-top:100px;
+	margin-right:40px;
+	line-height:20px;
+	text-align:center;
+	cursor: pointer;
+	transition: 1s;}
+	
+.tl{
+	width:50px;
+	height:20px;
+	background: #0FF;
+	margin-left:450px;
+	margin-top:-20px;
+	line-height:20px;
+	text-align:center;
+	cursor: pointer;
+	transition: 1s;}
+
+.t:hover{
+	background: blanchedalmond;
+}
+.tl:hover{
+	background: blanchedalmond;
+}	
+/******内容1结束***/			
+
+/*****内容2开始*****/
+
+.bjz{width:600px;
+	height:400px;
+	background:#FFF;
+	position:absolute;
+	top:420px;
+	}
+
+.bjz .bjzzp{
+	width:300px;
+	height:300px;
+	background: url(img/64642088_p0.jpg) no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:50px;
+	left:25px;
+	transition-property: padding;
+	transition-duration: 0.3s;}
+	
+.bjz .bjzzp:hover{
+	padding:5px 5px 5px ;
+
+}
+.bjz .qwer{
+	margin-left:350px;
+	margin-top:80px;
+	margin-right:40px;
+}
+	
+.tk{
+	width:50px;
+	height:20px;
+	background:#FCF;
+	margin-top:100px;
+	line-height:20px;
+	text-align:center;
+	cursor: pointer;
+	}	
+
+.tj{
+	width:50px;
+	height:20px;
+	background:#0FF;
+	margin-left:100px;
+	margin-top:-20px;
+	line-height:20px;
+	text-align:center;
+	cursor: pointer;}
+.tk:hover{
+	background: blanchedalmond;
+	}
+.tj:hover{
+	background: blanchedalmond;
+	}		
+	
+	
+						
+/*****内容3******/
+.bjb{width:600px;
+	height:400px;
+	background:#FFF;
+	position:absolute;
+	top:840px;
+	transition: 1s;}
+	
+.bjbzp{
+	width:300px;
+	height:300px;
+	background: url(img/64368760_p0.jpg) no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:50px;
+	left:25px;
+	transition-property: padding;
+	transition-duration: 0.3s;
+	}
+.bjbzp:hover{
+	padding: 5px 5px 5px;
+
+}	
+.bjb .qwert{
+	margin-left:350px;
+	margin-top:80px;
+	margin-right:40px;
+}
+
+.th{
+	width:50px;
+	height:20px;
+	background:#FCF;
+	margin-top:100px;
+	line-height:20px;
+	text-align:center;	
+	cursor: pointer;}
+.tg{
+	width:50px;
+	height:20px;
+	background:#0FF;
+	margin-left:100px;
+	margin-top:-20px;
+	line-height:20px;
+	text-align:center;
+	cursor: pointer;
+	}
+	
+.th:hover{
+	background: blanchedalmond;
+	}
+.tg:hover{
+	background: blanchedalmond;
+	}		
+/***********左边内容结束***********/	
+
+
+
+/**********右边内容**********/
+
+/***右边内容1***/
+.bjc{
+	width:300px;
+	height:200px;
+	background:#FFF;
+	float:right;
+	margin:20px;
+	position:relative;}
+
+img{
+	width:100px;
+	height:150px;
+	margin-left:100px;
+	transition: 1s;
+	border-radius: 50%;}
+
+img:hover{
+	transform: rotate(180deg);
+}	
+.bgn{
+	margin-left:60px;}	
+
+/******右边内容2*******/	
+.zbc{
+	width:300px;
+	height:400px;
+	background:#FFF;
+	position:absolute;
+	top:250px;
+	transition: 2s;}
+.zbc p{height:23px;
+	margin-left:5px;
+	margin-top:10px;
+	line-height:10px;
+	border-bottom:2px #00CCFF solid;
+	transition: 1s;}
+.zbc p span{color: #36F;
+	font-size:5px;
+	transition: 1s;}		
+	
+	
+
+
+/*******尾页******/		
+
+.weiye{
+	width:1000px;
+	height:50px;
+	background:#FFF;
+	float:left;
+	position:absolute;
+	top:1400px;
+	transition: 1s;
+	cursor: pointer;}
+	
+	
+.weiye{
+	line-height:50px;
+	text-align:center;
+	transition: 1s;
+}
+.qy{
+	width: 40px;
+	height: 40px;
+	background: aqua;
+	border-radius: 50%;
+	position: absolute;
+	left:600px;
+	top: 5px;
+	transition: 0.5s;
+	transition-property: padding;
+	transition-duration: 0.5s;
+}
+.qy:hover{
+	padding: 2px;
+}
+.qy p{
+	line-height: 40px;
+	cursor: pointer;
+}
+.qy:hover{
+	background:aquamarine;
+}
+.qyy{
+	width: 40px;
+	height: 40px;
+	background: aqua;
+	border-radius: 50%;
+	position: absolute;
+	left:650px;
+	top: 5px;
+	transition: 0.5s;
+	transition-property: padding;
+	transition-duration: 0.5s;
+}
+	
+.qyy:hover{
+	padding: 2px;}
+
+.qyy p{
+		line-height: 40px;
+		cursor: pointer;
+	}
+.qyy:hover{
+		background:aquamarine;
+	}
+	/*******尾页结束********/	
